@@ -1,0 +1,34 @@
+{
+	"name": "api-graphql",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "yarn webiny run build",
+		"watch": "yarn webiny run watch"
+	},
+	"dependencies": {
+		"@webiny/api-elasticsearch": "5.11.0-next.5",
+		"@webiny/api-file-manager": "5.11.0-next.5",
+		"@webiny/api-file-manager-ddb-es": "5.11.0-next.5",
+		"@webiny/api-file-manager-s3": "5.11.0-next.5",
+		"@webiny/api-form-builder": "5.11.0-next.5",
+		"@webiny/api-headless-cms": "5.11.0-next.5",
+		"@webiny/api-headless-cms-ddb-es": "5.11.0-next.5",
+		"@webiny/api-i18n": "5.11.0-next.5",
+		"@webiny/api-i18n-content": "5.11.0-next.5",
+		"@webiny/api-i18n-ddb": "5.11.0-next.5",
+		"@webiny/api-page-builder": "5.11.0-next.5",
+		"@webiny/api-prerendering-service": "5.11.0-next.5",
+		"@webiny/api-security": "5.11.0-next.5",
+		"@webiny/api-security-admin-users": "5.11.0-next.5",
+		"@webiny/api-security-admin-users-cognito": "5.11.0-next.5",
+		"@webiny/api-security-cognito-authentication": "5.11.0-next.5",
+		"@webiny/api-tenancy": "5.11.0-next.5",
+		"@webiny/cli": "5.11.0-next.5",
+		"@webiny/db-dynamodb": "5.11.0-next.5",
+		"@webiny/handler-aws": "5.11.0-next.5",
+		"@webiny/handler-db": "5.11.0-next.5",
+		"@webiny/handler-graphql": "5.11.0-next.5",
+		"@webiny/handler-logs": "5.11.0-next.5",
+		"@webiny/project-utils": "5.11.0-next.5"
+	}
+}
